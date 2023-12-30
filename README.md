@@ -15,4 +15,4 @@ It encompasses the hardware composition of a distributed system in terms of comp
 - **Network Topology** – This defines the arrangement of nodes and links in the distributed computing system. The most common network topologies that are implemented are bus, star, mesh, ring or hybrid. Choice of topology is done by determining the exact use cases and the requirements.
 - Communication Protocols : are the set rules and procedures for transmitting data from in the links. Examples of these protocols include TCP, UDP, HTTPS, MQTT etc. These allow the nodes to communicate and interpret the data.
 
-  ![Physical-Model]([https://assets.digitalocean.com/articles/alligator/boo.svg](https://media.geeksforgeeks.org/wp-content/uploads/20230622002416/Physical-Model.jpg)https://media.geeksforgeeks.org/wp-content/uploads/20230622002416/Physical-Model.jpg "Physical-Model")
+  ![Physical-Model](https://media.geeksforgeeks.org/wp-content/uploads/20230622002416/Physical-Model.jpg)"Physical-Model")
