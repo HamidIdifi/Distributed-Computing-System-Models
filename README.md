@@ -42,7 +42,7 @@ Middleware simplifies complex distributed applications.
 > - Application developers can design Middleware so it’s sufficiently high-level that it becomes independent of specific hardware environments or operating system
 > platforms which simplifies porting applications developed on one type of platform onto another without rewriting code or without resorting to inefficient and  > expensive binary compatibility toolsets such as cross-compilers.
 
-.### some examples of middleware
+### some examples of middleware
 
 - **Message-Oriented Middleware (MOM)**:
 
