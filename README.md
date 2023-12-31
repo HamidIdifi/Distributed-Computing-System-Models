@@ -27,6 +27,15 @@ Scalability is all about making sure your online store (or any system) can handl
 - the Spring Framework's scalability is attributed to its modular architecture, support for IoC, AOP, and DI, integration capabilities, and tools like Spring Boot that are tailored for building scalable microservices. These features promote flexibility, maintainability, and efficient resource utilization in large and complex applications.
 - **How to Measure Scalability** : The system has the best scalability when the workload and computing resources are increased or lowered by a factor of K at the same time while the average response time of the system or application remains unchanged.
 
+
+
+
+
+
+
+
+
+
 ## Role of Middleware in Distributed System
 
 Middleware is software that acts as a link between two or more objects
@@ -97,6 +106,12 @@ Middleware simplifies complex distributed applications.
 > Examples: Java Transaction API (JTA), Microsoft Distributed Transaction Coordinator (MSDTC)
 > 
 > Purpose: Ensures atomicity, consistency, isolation, and durability (ACID properties) for transactions that span multiple distributed components.
+
+
+
+
+
+
 
 ## Types of Distributed Computing System Models
 
