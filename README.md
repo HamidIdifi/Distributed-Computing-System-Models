@@ -183,6 +183,8 @@ Various aspects that are vital in the security model are –
 > - **Multi-factor authentication** – Multiple factors, such as passwords, biometrics, or security tokens, are used to validate identity.
 - **Encryption** – It is the process of transforming data into a format that is unreadable without a decryption key. It protects sensitive information from unauthorized access or disclosure.
 
+![](https://media.geeksforgeeks.org/wp-content/uploads/3-56.png)
+
  ![](https://media.geeksforgeeks.org/wp-content/uploads/20220107194600/Screenshot44.png)
 
 - **Data Integrity** – Data integrity mechanisms protect against unauthorised modifications or tampering of data. They ensure that data remains unchanged during storage, transmission, or processing. Data integrity mechanisms include:
