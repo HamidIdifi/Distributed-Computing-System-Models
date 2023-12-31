@@ -49,16 +49,12 @@ Middleware simplifies complex distributed applications.
 > Examples: Apache Kafka, RabbitMQ, ActiveMQ .
 > 
 > Purpose: Facilitates asynchronous communication between distributed components by enabling message queuing and pub/sub patterns.
->
-> ![Physical-Model](https://media.geeksforgeeks.org/wp-content/uploads/20211126104407/UntitledDiagram9.jpg)
 
 - **Remote Procedure Call (RPC) Middleware**:
 
 > Examples: gRPC, Apache Thrift, Java RMI (Remote Method Invocation).
 > 
 > Purpose: Enables communication between distributed components by allowing one program to execute code on another program residing on a different machine.
->
-> ![Physical-Model](https://media.geeksforgeeks.org/wp-content/uploads/operating-system-remote-call-procedure-working.png)
 
 - **Object Request Broker (ORB)**:
 
@@ -71,9 +67,6 @@ Middleware simplifies complex distributed applications.
 > Examples: SOAP (Simple Object Access Protocol), REST (Representational State Transfer)
 > 
 > Purpose: Facilitates communication and interoperability between distributed systems over the web. SOAP is a protocol, while REST is an architectural style.
->
-> ![Physical-Model](https://media.licdn.com/dms/image/C4D12AQGQoCgVbPdmtg/article-inline_image-shrink_1000_1488/0/1622930986964?e=1709164800&v=beta&t=-zzJpDi6at1HgGNXJWW6jSDQsIm0dijcVHQR399eM0o)
-> 
 
 - **Enterprise Service Bus (ESB)**:
 
@@ -132,11 +125,11 @@ consists of the following components:
   
   - **Client-Server model** It is a centralised approach in which the clients initiate requests for services and severs respond by providing those services. It mainly works on the request-response model where the client sends a request to the server and the server processes it, and responds to the client accordingly. It can be achieved by using TCP/IP, HTTP protocols on the transport layer. This is mainly used in web services, cloud computing, database management systems etc.
  
-  - ![](https://media.geeksforgeeks.org/wp-content/uploads/20191016114416/801.png)
+   ![](https://media.geeksforgeeks.org/wp-content/uploads/20191016114416/801.png)
  
   - **Peer-to-peer model** – It is a decentralised approach in which all the distributed computing nodes, known as peers, are all the same in terms of computing capabilities and can both request as well as provide services to other peers. It is a highly scalable model because the peers can join and leave the system dynamically
  
-  - ![](https://media.geeksforgeeks.org/wp-content/uploads/20220826190244/GFGP2PArchitecture.png)
+   ![](https://media.geeksforgeeks.org/wp-content/uploads/20220826190244/GFGP2PArchitecture.png)
  
   - **Layered model** involves organising the system into multiple layers, where each layer will provision a specific service. Each layer communicated with the adjacent layers using certain well-defined protocols without affecting the integrity of the system. A hierarchical structure is obtained where each layer abstracts the underlying complexity of lower layers.
  
@@ -152,12 +145,12 @@ consists of the following components:
 > - **Message Passing** – It deals with passing messages that may contain, data, instructions, a service request, or process synchronisation between different computing nodes. It may be synchronous or asynchronous depending on the types of tasks and processes.
 
 > - **Publish/Subscribe Systems** – Also known as pub/sub system. In this the publishing process can publish a message over a topic and the processes that are
-> - 
+
 > subscribed to that topic can take it up and execute the process for themselves. It is more important in an event-driven architecture.
 
 > - **Remote Procedure Call (RPC)** – RPC is about calling functions or procedures on another computer as if they were local, making remote actions feel local.
 > > It's like asking a friend in another room to do something for you, and you communicate by sending messages (calls and responses).
-> > 
+> > ![Physical-Model](https://media.geeksforgeeks.org/wp-content/uploads/operating-system-remote-call-procedure-working.png)
 ### Failure Model 
 – This model addresses the faults and failures that occur in the distributed computing system. It provides a framework to identify and rectify the faults that occur or may occur in the system.
 Fault tolerance mechanisms are implemented so as to handle failures by replication and error detection and recovery methods. Different failures that may occur are:
@@ -175,7 +168,7 @@ Various aspects that are vital in the security model are –
 > - **Multi-factor authentication** – Multiple factors, such as passwords, biometrics, or security tokens, are used to validate identity.
 - **Encryption** – It is the process of transforming data into a format that is unreadable without a decryption key. It protects sensitive information from unauthorized access or disclosure.
 
-- ![](https://media.geeksforgeeks.org/wp-content/uploads/20220107194600/Screenshot44.png)
+ ![](https://media.geeksforgeeks.org/wp-content/uploads/20220107194600/Screenshot44.png)
 
 - **Data Integrity** – Data integrity mechanisms protect against unauthorised modifications or tampering of data. They ensure that data remains unchanged during storage, transmission, or processing. Data integrity mechanisms include:
 > - **Hash functions** – Generating a hash value or checksum from data to verify its integrity.
