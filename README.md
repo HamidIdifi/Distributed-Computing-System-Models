@@ -34,7 +34,7 @@ Middleware simplifies complex distributed applications.
 
 **Block Representation of Middleware:**
 
-![Physical-Model](https://media.geeksforgeeks.org/wp-content/uploads/20211126103158/UntitledDiagram8.jpg)"Physical-Model")
+![Physical-Model](https://media.geeksforgeeks.org/wp-content/uploads/20211126103158/UntitledDiagram8.jpg)
 
 ### Advantages of Middleware in Distributed Systems:
 > - Middleware is an intermediate layer of software that sits between the application and the network. It is used in distributed systems to provide common services, > > such as authentication, authorization, compilation for best performance on particular architectures, input/output translation, and error handling.
@@ -47,46 +47,62 @@ Middleware simplifies complex distributed applications.
 - **Message-Oriented Middleware (MOM)**:
 
 > Examples: Apache Kafka, RabbitMQ, ActiveMQ .
+> 
 > Purpose: Facilitates asynchronous communication between distributed components by enabling message queuing and pub/sub patterns.
+>
+> ![Physical-Model](https://media.geeksforgeeks.org/wp-content/uploads/20211126104407/UntitledDiagram9.jpg)
 
 - **Remote Procedure Call (RPC) Middleware**:
 
 > Examples: gRPC, Apache Thrift, Java RMI (Remote Method Invocation).
+> 
 > Purpose: Enables communication between distributed components by allowing one program to execute code on another program residing on a different machine.
+>
+> ![Physical-Model](https://media.geeksforgeeks.org/wp-content/uploads/operating-system-remote-call-procedure-working.png)
 
 - **Object Request Broker (ORB)**:
 
 > Examples: CORBA (Common Object Request Broker Architecture), ICE (Internet Communications Engine)
+> 
 > Purpose: Facilitates communication and interaction between objects in a distributed system, allowing objects written in different languages to work together.
 
 - **Web Services Middleware**:
 
 > Examples: SOAP (Simple Object Access Protocol), REST (Representational State Transfer)
+> 
 > Purpose: Facilitates communication and interoperability between distributed systems over the web. SOAP is a protocol, while REST is an architectural style.
+>
+> ![Physical-Model](https://media.licdn.com/dms/image/C4D12AQGQoCgVbPdmtg/article-inline_image-shrink_1000_1488/0/1622930986964?e=1709164800&v=beta&t=-zzJpDi6at1HgGNXJWW6jSDQsIm0dijcVHQR399eM0o)
+> 
 
 - **Enterprise Service Bus (ESB)**:
 
 > Examples: Apache Camel, Mule ESB, Apache ServiceMix
+> 
 > Purpose: Facilitates communication, integration, and coordination between various services and applications within an enterprise.
 
 - **Database Middleware**:
 
 > Examples: Java Database Connectivity (JDBC), Object-Relational Mapping (ORM) frameworks like Hibernate
+> 
 > Purpose: Provides a standardized interface for communication between applications and databases, abstracting the underlying database details.
 
 - **Middleware for Publish/Subscribe**:
 
 > Examples: MQTT (Message Queuing Telemetry Transport), CoAP (Constrained Application Protocol)
+> 
 > Purpose: Facilitates communication between distributed components using a publish/subscribe model, where one component (publisher) sends messages, and others > > *> > (subscribers) receive them.
 
 - **Distributed Cache Middleware**:
 
 > Examples: Redis, Memcached
+> 
 > Purpose: Provides a distributed, in-memory cache that enhances performance and scalability by reducing the load on databases.
 
 - **Transaction Middleware**:
 
 > Examples: Java Transaction API (JTA), Microsoft Distributed Transaction Coordinator (MSDTC)
+> 
 > Purpose: Ensures atomicity, consistency, isolation, and durability (ACID properties) for transactions that span multiple distributed components.
 
 ## Types of Distributed Computing System Models
