@@ -25,6 +25,19 @@ Scalability is all about making sure your online store (or any system) can handl
 - **Need for Scalability Framework**: The scalability framework is required for the applications as it refers to a software system’s ability to scale up in some way when and where required because of the changing demands of the system like increasing users or workload, etc.
 - the Spring Framework's scalability is attributed to its modular architecture, support for IoC, AOP, and DI, integration capabilities, and tools like Spring Boot that are tailored for building scalable microservices. These features promote flexibility, maintainability, and efficient resource utilization in large and complex applications.
 - **How to Measure Scalability** : The system has the best scalability when the workload and computing resources are increased or lowered by a factor of K at the same time while the average response time of the system or application remains unchanged.
+
+## Role of Middleware in Distributed System
+
+Middleware is software that acts as a link between two or more objects
+Middleware simplifies complex distributed applications,
+**Block Representation of Middleware:**
+![Physical-Model](https://media.geeksforgeeks.org/wp-content/uploads/20211126103158/UntitledDiagram8.jpg)"Physical-Model")
+
+### Advantages of Middleware in Distributed Systems:
+> - Middleware is an intermediate layer of software that sits between the application and the network. It is used in distributed systems to provide common services, > > such as authentication, authorization, compilation for best performance on particular architectures, input/output translation, and error handling.
+> - Middleware offers a number of advantages to distributed systems. Middleware can be modularized from the application so it has better potential for reuse with other applications running on different platforms. 
+> - Application developers can design Middleware so it’s sufficiently high-level that it becomes independent of specific hardware environments or operating system > > > platforms which simplifies porting applications developed on one type of platform onto another without rewriting code or without resorting to inefficient and > > > > > expensive binary compatibility toolsets such as cross-compilers.
+
 ## Types of Distributed Computing System Models
 
 ### Physical Model
