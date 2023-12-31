@@ -21,7 +21,7 @@ Some disadvantages of Distributed Systems are as follows :
 Software scalability refers to the capacity to adapt to changing workloads by altering the scheduling mechanism and parallelism level.
 Scalability is all about making sure your online store (or any system) can handle growth smoothly. It's like having a store that doesn't get overwhelmed when more people want to buy your products. Whether you need a bigger room (vertical scalability) or more distributed rooms (horizontal scalability), the goal is to keep your business running smoothly, no matter how big it gets.
 
-![Physical-Model](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210209202449/Scaling-Concept.png)"Physical-Model")
+![Physical-Model](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210209202449/Scaling-Concept.png)
 
 - **Need for Scalability Framework**: The scalability framework is required for the applications as it refers to a software system’s ability to scale up in some way when and where required because of the changing demands of the system like increasing users or workload, etc.
 - the Spring Framework's scalability is attributed to its modular architecture, support for IoC, AOP, and DI, integration capabilities, and tools like Spring Boot that are tailored for building scalable microservices. These features promote flexibility, maintainability, and efficient resource utilization in large and complex applications.
