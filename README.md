@@ -1,10 +1,15 @@
 # Distributed-Computing-System
 Distributed computing refers to a system where **processing** and **data storage** is distributed across multiple devices or systems, rather than being handled by a single central device.
+
 # Table of Contents
-1. [Example](#example)
+1. [What is Scalable System in Distributed System?](#What-is-Scalable-System-in-Distributed-System?)
 2. [Role of Middleware in Distributed System](#Role-of-Middleware-in-Distributed-System)
-3. [Third Example](#third-example)
-4. [Fourth Example](#fourth-examplehttpwwwfourthexamplecom)
+3. [some examples of middleware](#some-examples-of-middleware)
+4. [Types of Distributed Computing System Models](#Types-of-Distributed-Computing-System-Models)
+5. [Physical Model](#Physical-Model)
+6. [Architectural model](#Architectural-model)
+7. [Fundamental Model](#Fundamental-Model)
+   
 ## Advantages of Distributed Systems
 Some advantages of Distributed Systems are as follows :
 
