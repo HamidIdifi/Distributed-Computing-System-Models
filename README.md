@@ -165,7 +165,7 @@ consists of the following components:
 ### Fundamental Model
  It represents the essential components that are required to understand a distributed system’s behaviour. Three fundamental models are as follows:
  #### Interaction Model  
- – Distributed computing systems are full of many processes interacting with each other in highly complex ways. Interaction model provides a framework to understand > the mechanisms and patterns that are used for communication and coordination among various processes. Different components that are important in this model are:
+ – Distributed computing systems are full of many processes interacting with each other in highly complex ways. Interaction model **provides a framework** to understand the **mechanisms and patterns** that are used for **communication and coordination** among various **processes**. Different components that are important in this model are:
 > - **Message Passing** – It deals with passing messages that may contain, data, instructions, a service request, or process synchronisation between different computing nodes. It may be synchronous or asynchronous depending on the types of tasks and processes.
 
 > - **Publish/Subscribe Systems** – Also known as pub/sub system. In this the publishing process can publish a message over a topic and the processes that are
@@ -173,8 +173,8 @@ consists of the following components:
 > subscribed to that topic can take it up and execute the process for themselves. It is more important in an event-driven architecture.
 
 > - **Remote Procedure Call (RPC)** – RPC is about calling functions or procedures on another computer as if they were local, making remote actions feel local.
-> > It's like asking a friend in another room to do something for you, and you communicate by sending messages (calls and responses).
-> > ![Physical-Model](https://media.geeksforgeeks.org/wp-content/uploads/operating-system-remote-call-procedure-working.png)
+It's like asking a friend in another room to do something for you, and you communicate by sending messages (calls and responses).
+ ![Physical-Model](https://media.geeksforgeeks.org/wp-content/uploads/operating-system-remote-call-procedure-working.png)
 ### Failure Model 
 – This model addresses the faults and failures that occur in the distributed computing system. It provides a framework to identify and rectify the faults that occur or may occur in the system.
 Fault tolerance mechanisms are implemented so as to handle failures by replication and error detection and recovery methods. Different failures that may occur are:
