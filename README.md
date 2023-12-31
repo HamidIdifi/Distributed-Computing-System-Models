@@ -2,7 +2,7 @@
 Distributed computing refers to a system where **processing** and **data storage** is distributed across multiple devices or systems, rather than being handled by a single central device.
 
 # Table of Contents
-1. [What is Scalable System in Distributed System?](#What-is-Scalable-System-in-Distributed-System?)
+1. [What is Scalable System in Distributed System?](#What-is-Scalable-System-in-Distributed-System)
 2. [Role of Middleware in Distributed System](#Role-of-Middleware-in-Distributed-System)
 3. [some examples of middleware](#some-examples-of-middleware)
 4. [Types of Distributed Computing System Models](#Types-of-Distributed-Computing-System-Models)
@@ -26,7 +26,7 @@ Some disadvantages of Distributed Systems are as follows :
 > - In comparison to a single-user system, the database related to distributed systems is more complicated and difficult to manage.
 > - While traveling from one node to another node, some data may be lost in the network.
 
-## What is Scalable System in Distributed System?
+## What is Scalable System in Distributed System
 Software scalability refers to the capacity to adapt to changing workloads by altering the scheduling mechanism and parallelism level.
 Scalability is all about making sure your online store (or any system) can handle growth smoothly. It's like having a store that doesn't get overwhelmed when more people want to buy your products. Whether you need a bigger room (vertical scalability) or more distributed rooms (horizontal scalability), the goal is to keep your business running smoothly, no matter how big it gets.
 
