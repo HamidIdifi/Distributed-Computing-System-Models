@@ -1,6 +1,10 @@
 # Distributed-Computing-System
 Distributed computing refers to a system where **processing** and **data storage** is distributed across multiple devices or systems, rather than being handled by a single central device.
-
+# Table of Contents
+1. [Example](#example)
+2. [Role of Middleware in Distributed System](#Role of Middleware in Distributed System)
+3. [Third Example](#third-example)
+4. [Fourth Example](#fourth-examplehttpwwwfourthexamplecom)
 ## Advantages of Distributed Systems
 Some advantages of Distributed Systems are as follows :
 
