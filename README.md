@@ -108,8 +108,12 @@ Middleware simplifies complex distributed applications.
 ## Types of Distributed Computing System Models
 
 ### Physical Model
-It encompasses the hardware composition of a distributed system in terms of computers and other devices and their interconnections. It is primarily used to **design**, **manage**, **implement** and **determine** the performance of a **distributed system**. consists of the following components:
+
+It encompasses the hardware composition of a distributed system in terms of computers and other devices and their interconnections. It is primarily used to **design**, **manage**, **implement** and **determine** the performance of a **distributed system**.
+
+consists of the following components:
 - **Nodes** : are the end devices that have the ability of processing data, executing tasks and communicating with the other nodes. Each node has an Operating System, execution environment and different middleware requirements that facilitate communication and other vital tasks.
+- 
 - **Links** : are the communication channels between different nodes and intermediate devices.Generally, physical links are required for high performance and real> > time computing. Different connection types that can be implemented are as follows:
 > - **Point-to-point links** – It establishes a connection and allows data transfer between only two nodes.
 > - **Broadcast links** – It enables a single node to transmit data to multiple nodes simultaneously.
@@ -117,6 +121,62 @@ It encompasses the hardware composition of a distributed system in terms of comp
 
 - **Middleware** : These are the **softwares** installed and executed on the nodes. By running middleware on **each node**, the distributed computing system achieves a **decentralised control** and **decision-making**. It handles various tasks like **communication with other nodes**, **resource management**, **fault tolerance**, **synchronisation** of different nodes and security to prevent malicious and unauthorised access.
 - **Network Topology** – This defines the arrangement of nodes and links in the distributed computing system. The most common network topologies that are implemented are bus, star, mesh, ring or hybrid. Choice of topology is done by determining the exact use cases and the requirements.
-- Communication Protocols : are the set rules and procedures for transmitting data from in the links. Examples of these protocols include TCP, UDP, HTTPS, MQTT etc. These allow the nodes to communicate and interpret the data.
+- 
+- **Communication Protocols** : are the set rules and procedures for transmitting data from in the links. Examples of these protocols include TCP, UDP, HTTPS, MQTT etc. These allow the nodes to communicate and interpret the data.
 
   ![Physical-Model](https://media.geeksforgeeks.org/wp-content/uploads/20230622002416/Physical-Model.jpg)"Physical-Model")
+
+  ### Architectural model
+
+  Architectural model in distributed computing system is the overall design and structure of the system, and how its different components are organised to interact with each other and provide the desired functionalities.
+  
+  - **Client-Server model** It is a centralised approach in which the clients initiate requests for services and severs respond by providing those services. It mainly works on the request-response model where the client sends a request to the server and the server processes it, and responds to the client accordingly. It can be achieved by using TCP/IP, HTTP protocols on the transport layer. This is mainly used in web services, cloud computing, database management systems etc.
+ 
+  - ![](https://media.geeksforgeeks.org/wp-content/uploads/20191016114416/801.png)
+ 
+  - **Peer-to-peer model** – It is a decentralised approach in which all the distributed computing nodes, known as peers, are all the same in terms of computing capabilities and can both request as well as provide services to other peers. It is a highly scalable model because the peers can join and leave the system dynamically
+ 
+  - ![](https://media.geeksforgeeks.org/wp-content/uploads/20220826190244/GFGP2PArchitecture.png)
+ 
+  - **Layered model** involves organising the system into multiple layers, where each layer will provision a specific service. Each layer communicated with the adjacent layers using certain well-defined protocols without affecting the integrity of the system. A hierarchical structure is obtained where each layer abstracts the underlying complexity of lower layers.
+ 
+  - **Micro-services model** – In this system, a complex application or task, is decomposed into multiple independent tasks and these services running on different servers. Each service performs only a single function and is focussed on a specific business-capability.
+
+![](https://media.geeksforgeeks.org/wp-content/uploads/20230622020049/Screenshot-2023-06-22-at-15955-AM.jpg)
+
+
+### Fundamental Model
+ It represents the essential components that are required to understand a distributed system’s behaviour. Three fundamental models are as follows:
+ #### Interaction Model  
+ – Distributed computing systems are full of many processes interacting with each other in highly complex ways. Interaction model provides a framework to understand > the mechanisms and patterns that are used for communication and coordination among various processes. Different components that are important in this model are:
+> - **Message Passing** – It deals with passing messages that may contain, data, instructions, a service request, or process synchronisation between different computing nodes. It may be synchronous or asynchronous depending on the types of tasks and processes.
+
+> - **Publish/Subscribe Systems** – Also known as pub/sub system. In this the publishing process can publish a message over a topic and the processes that are
+> - 
+> subscribed to that topic can take it up and execute the process for themselves. It is more important in an event-driven architecture.
+
+> - **Remote Procedure Call (RPC)** – RPC is about calling functions or procedures on another computer as if they were local, making remote actions feel local.
+> > It's like asking a friend in another room to do something for you, and you communicate by sending messages (calls and responses).
+> > 
+### Failure Model 
+– This model addresses the faults and failures that occur in the distributed computing system. It provides a framework to identify and rectify the faults that occur or may occur in the system.
+Fault tolerance mechanisms are implemented so as to handle failures by replication and error detection and recovery methods. Different failures that may occur are:
+- **Crash failures** – A process or node unexpectedly stops functioning.
+- **Omission failures** – It involves a loss of message, resulting in absence of required communication.
+- **Timing failures** – The process deviates from its expected time quantum and may lead to delays or unsynchronised response times.
+- **Byzantine failures** – The process may send malicious or unexpected messages that conflict with the set protocols.
+
+### Security Model 
+– Distributed computing systems may suffer malicious attacks, unauthorised access and data breaches. Security model provides a framework for understanding the security requirements, threats, vulnerabilities, and mechanisms to safeguard the system and its resources.
+Various aspects that are vital in the security model are – 
+- **Authentication** – It verifies the identity of the users accessing the system. It ensures that only the authorised and trusted entities get access. It involves –
+> - **Password-based authentication** – Users provide a unique password to prove their identity.
+> - **Public-key cryptography** – Entities possess a private key and a corresponding public key, allowing verification of their authenticity.
+> - **Multi-factor authentication** – Multiple factors, such as passwords, biometrics, or security tokens, are used to validate identity.
+- **Encryption** – It is the process of transforming data into a format that is unreadable without a decryption key. It protects sensitive information from unauthorized access or disclosure.
+
+- ![](https://media.geeksforgeeks.org/wp-content/uploads/20220107194600/Screenshot44.png)
+
+- **Data Integrity** – Data integrity mechanisms protect against unauthorised modifications or tampering of data. They ensure that data remains unchanged during storage, transmission, or processing. Data integrity mechanisms include:
+> - **Hash functions** – Generating a hash value or checksum from data to verify its integrity.
+> - **Digital signatures** – Using cryptographic techniques to sign data and verify its authenticity and integrity.
